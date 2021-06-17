@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.navbar{
+	background-color: #00008B;
+}
+
+.jumbotron {
+	background: white;
+}
+
+.btn {
+	width: 200px;
+	height: 50px;
+	margin: 30px;
+}
+
+.card{
+	background-color: #00008B;
+	font-size: 15px;
+}
+
+#carouselIndicators{
+	width: 1050px;
+}
+
+.carouselImg{
+	height: 500px;
+}
+
+.imgVince{
+	width: 300px;
+}
