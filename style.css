@@ -1,6 +1,8 @@
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial;
 }
 
 html {
@@ -19,39 +21,25 @@ html {
 	font-size: 15px;
 }
 
-#carouselIndicators{
-	width: 600px;
-}
-
-.carouselImg{
-	height: 400px;
-}
-
 .imgVince{
 	width: 300px;
 }
 
-#background1 {
+body{
 	background: url("./../images/background5.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	height: 100%;
+	height: 400vh;
+	margin-bottom: 0px;
 }
 
-#background2 {
-	background-color: #F8F8FF;
+.spacePad{
+	padding: 60px
 }
 
-.image-container {
-	padding-bottom:(1/1) * 100%;
-	background: black;
-	position: relative;
-	overflow: hidden;
-	z-index: 2;
-	background-size: cover;
-	background-position: center;
-}
+
+
 
 .webDig{
 	font-size: 1.2rem;
@@ -75,22 +63,23 @@ html {
 	color: #90EE90;
 }
 
-
-#rowProjects{
-	margin: 30px;
+.projectContainer1{
+	background-color: #FFFFFF;
+  margin-bottom: 30px; 
 }
 
-/*body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background-color: transparent;
-}*/
+.containerProject{
+	margin: 35px;
+	padding: 10px;
+}
+
+
+
 
 .deconstructed {
   position: relative;
   margin: auto;
+  margin-right: 0px; 
   height: 0.71em;
   color: transparent;
   font-family: 'Cambay', sans-serif;
@@ -98,7 +87,7 @@ html {
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.03em;
-  color: black;
+  color: white;
 }
 
 .deconstructed > div {
@@ -107,7 +96,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  color: #90EE90;
+  color: green;
   pointer-events: none;
 }
 
@@ -195,3 +184,67 @@ html {
   }
 }
 
+.imageProject{
+	height: 40vh;
+}
+
+.projectName{
+	font-size: 150%;
+  color: white;
+  text-decoration: underline;
+}
+
+.containerForm{
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.forms1{
+ margin: 10px;
+ height: 30px;
+ width: 300px;
+}
+
+.forms2{
+  margin: 10px;
+  height: 150px;
+  width: 600px;
+}
+
+.button1 {
+  margin: 10px;
+  margin-bottom: 40px;
+  width: 20px
+  height: 80px;
+}
+
+.contactForm{
+  margin: 10px;
+  color: white;
+
+}
+
+
+#footer1{
+  padding: 20px;
+  padding-left: 40px;
+  padding bottom: 0px;
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  widows: 50vh;
+  background-color: #000000;
+}
+
+
+.footerContent{
+  margin: 10px;
+  font-size: large;
+  margin-bottom: 0px;
+}
+
+
+.contact1{
+  margin: 10px;
+}
